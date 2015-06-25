@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -446,7 +454,6 @@ nav {
   margin-left:auto;
   padding-top:.7em;
   padding-bottom:.5em;
-  font-size:1em;
 }
 
 .top-navigation {
@@ -459,46 +466,38 @@ nav {
   margin:0 auto;
 }
 
-.nav-logo {
-  float:left;
+.content {
+  padding: 0px 15px;
+  letter-spacing: .03em;
 }
 
 .logo{
   height:2.5em;
   width:1.6em;
-  padding-top:.2em;
-  margin-left:14px;
 }
 
-.nav-right {
+.top-navigation .links{
   float:right;
-  letter-spacing:.01em;
-}
-
-.nav-menu{
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color:#838994;
   list-style:none;
+  margin-top: 25px;
+  -webkit-font-smoothing: antialiased;
 }
 
-.nav-menu > li {
+.top-navigation .links li {
   display:inline-block;
-  margin-left: 1.75em;
+  margin-left: 25px;
 }
 
-a{
-  text-decoration:none;
-  color:Grey;
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color:#333333;
 }
 
-a:visited {
-  color:Grey;
-}
-
-a:hover {
-  color:black;
-}
-
-.meet-karma {
-  font-weight:bold;
-  color:#505050;
+.top-navigation .links > .active {
+  font-weight:600;
+  color:#4c5058;
 }
