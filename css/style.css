@@ -453,14 +453,21 @@ nav {
   background-color:#fff;
 }
 
+.top-navigation > .content {
+  width:970px;
+  height:70px;
+  margin:0 auto;
+}
+
 .nav-logo {
   float:left;
 }
 
-.karma-logo{
+.logo{
   height:2.5em;
   width:1.6em;
   padding-top:.2em;
+  margin-left:14px;
 }
 
 .nav-right {
