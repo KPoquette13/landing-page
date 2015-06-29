@@ -459,6 +459,9 @@ nav {
 
 .top-navigation {
   background-color:#fff;
+  position:fixed;
+  width:100%;
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -546,4 +549,30 @@ button:hover{
   cursor:pointer;
   background-color:#d9400e;
   border-color:#d9400e;
+}
+
+.cases {
+  padding-top: 5rem;
+  margin:0 auto;
+}
+
+.cases .devices {
+  width: 33.333333%;
+  display: inline-block;
+  /* styles to assist with debugging */
+  border: 1px solid black;
+  box-sizing: border-box;
+  height:4em;
+  float:left;
+  padding-top:2rem;
+  padding-left:5rem;
+}
+
+.cases .devices img {
+  margin: 0 auto;
+}
+
+.cases h2{
+  text-align:center;
+  font-weight:300;
 }
